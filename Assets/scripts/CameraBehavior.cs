@@ -8,9 +8,16 @@ public class CameraBehavior : MonoBehaviour {
     public Transform ObjASeguir;
     public float velocidade;
 
+    public Transform finalEsquerda;  // End of screen Left
+    public Transform finalDireita;  //End of Screen Right
+    public Transform camera;
+
+
 
     // Use this for initialization
     void Start () {
+
+        System.Console.WriteLine(camera.position.x);
 
     }
 	
@@ -18,7 +25,7 @@ public class CameraBehavior : MonoBehaviour {
 	void Update () {
 
         //O Vector3 recebe x, y e z (Que é -40 pois o objeto camera tem que estar atras de tudo)
-        transform.position = new Vector3(ObjASeguir.position.x, ObjASeguir.position.y);
+        transform.position = new Vector3(ObjASeguir.position.x, ObjASeguir.position.y, -40);
 
     }
 }
