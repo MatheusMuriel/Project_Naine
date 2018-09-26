@@ -17,8 +17,6 @@ public class CameraBehavior : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-        System.Console.WriteLine(camera.position.x);
-
     }
 	
 	// Update is called once per frame
