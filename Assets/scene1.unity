@@ -23965,7 +23965,6 @@ GameObject:
   - component: {fileID: 1105043939}
   - component: {fileID: 1105043938}
   - component: {fileID: 1105043941}
-  - component: {fileID: 1105043942}
   m_Layer: 12
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -24046,34 +24045,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjASeguir: {fileID: 807415060}
   velocidade: 3
+  compensacaoDoChao: 1.5
   finalEsquerda: {fileID: 768440746}
   finalDireita: {fileID: 1025755288}
-  camera: {fileID: 1105043940}
---- !u!61 &1105043942
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1105043937}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -11.129368, y: -0.0000009536743}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.0001, y: 8.039275}
-  m_EdgeRadius: 0
 --- !u!1 &1107337255
 GameObject:
   m_ObjectHideFlags: 0
@@ -47126,7 +47100,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tempoDaMensagem: 5
   texto: {fileID: 1567949793}
-  Colisores: {fileID: 807415062}
   objetoGatilho: {fileID: 2071102221}
   objetoAtivador: {fileID: 807415059}
   rangeDeAtivacao: 0.5

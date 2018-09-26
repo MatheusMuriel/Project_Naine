@@ -9,9 +9,11 @@ public class CameraBehavior : MonoBehaviour
     public Transform ObjASeguir;
     public float velocidade;
 
+    //Variavel para compensar a altura da camera, pois ela fica muito baixa se pegar só o eixo Y do personagem
+    public float compensacaoDoChao;
+
     public Transform finalEsquerda;  // End of screen Left
     public Transform finalDireita;  //End of Screen Right
-    public Transform camera;
 
 
 
@@ -25,6 +27,6 @@ public class CameraBehavior : MonoBehaviour
     void Update()
     {
         //O Vector3 recebe x, y e z (Que é -40 pois o objeto camera tem que estar atras de tudo)
-        transform.position = new Vector3(ObjASeguir.position.x, ObjASeguir.position.y, -40);
+        transform.position = new Vector3(ObjASeguir.position.x, (ObjASeguir.position.y + compensacaoDoChao), -40);
     }
 }
