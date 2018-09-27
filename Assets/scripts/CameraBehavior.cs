@@ -25,7 +25,7 @@ public class CameraBehavior : MonoBehaviour
     void Update()
     {
 
-        if (Vector2.Distance(ObjASeguir.position, finalEsquerda.position) >= compensacaoFimDoCenario | Vector2.Distance(ObjASeguir.position, finalDireita.position) >= compensacaoFimDoCenario) {
+		if (Vector2.Distance(ObjASeguir.position, finalEsquerda.position) >= compensacaoFimDoCenario && Vector2.Distance(ObjASeguir.position, finalDireita.position) >= compensacaoFimDoCenario) {
             //Muda normal
             transform.position = new Vector3(ObjASeguir.position.x, (ObjASeguir.position.y + compensacaoDoChao), -40);
         } else
