@@ -1460,7 +1460,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 149509441}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.2, y: -1.62, z: 0}
+  m_LocalPosition: {x: -1.26, y: -1.62, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 807415060}
@@ -8380,7 +8380,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.60870767, y: -0.0027832985}
+  m_Offset: {x: -0.9890437, y: -0.0027832985}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -8391,7 +8391,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2254853, y: 10.267844}
+  m_Size: {x: 1.9875231, y: 10.267844}
   m_EdgeRadius: 0
 --- !u!212 &768440745
 SpriteRenderer:
@@ -8446,7 +8446,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 768440743}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11, y: -0.78, z: 0}
+  m_LocalPosition: {x: -10.9, y: -0.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11606,7 +11606,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.16448641, y: -0.87361145}
+  m_Offset: {x: 2.303358, y: -0.87361145}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -11617,7 +11617,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6801367, y: 10.956919}
+  m_Size: {x: 2.9580956, y: 10.956919}
   m_EdgeRadius: 0
 --- !u!212 &1025755287
 SpriteRenderer:
@@ -11672,7 +11672,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1025755285}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.91, y: 1.73, z: 0}
+  m_LocalPosition: {x: 30, y: 1.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12758,7 +12758,7 @@ MonoBehaviour:
   compensacaoDoChao: 1.5
   finalEsquerda: {fileID: 768440746}
   finalDireita: {fileID: 1025755288}
-  compensacaoFimDoCenario: 7.3
+  compensacaoFimDoCenario: 8
 --- !u!1 &1107337255
 GameObject:
   m_ObjectHideFlags: 0
