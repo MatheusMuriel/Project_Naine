@@ -1,0 +1,21 @@
+
+#Responsavel por fazer a camera não ir para fora do cenario
+compensacaoFimDoCenario: 8
+
+#Responsavel por fazer a camera não ficar exatamente no centro do personagem, para que ela não fique muito para baixo do cenario
+compensacaoDoChao: 1.5
+
+#Controla a velocidade do personagem
+Velocidade: 5
+
+#Controla a força do pulo
+Forca Pulo: 200
+
+#Controla o tempo de exibição das mensagens (Como avisos ou dicas)
+Tempo Da Mensagem: 5
+
+#Controla a proximidade necessaria para ativar uma mensagem (Como avisos ou dicas)
+Range de Ativacao: 	Para Mensagens: 0.3(ação) ~ 0.5(Aviso)
+					Para eventos de tecla: 1.2
+
+

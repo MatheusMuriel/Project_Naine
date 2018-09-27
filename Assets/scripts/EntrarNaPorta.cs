@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class EntrarNaPorta : MonoBehaviour {
+public class EntrarNaPorta : MonoBehaviour
+{
     public GameObject objetoGatilho;
     public GameObject objetoAtivador;
     public float rangeDeAtivacao;
@@ -12,8 +14,6 @@ public class EntrarNaPorta : MonoBehaviour {
     {
 
     }
-
-    
 
     // Update is called once per frame
     void Update()
@@ -26,12 +26,12 @@ public class EntrarNaPorta : MonoBehaviour {
         {
             if (Input.GetAxisRaw("Vertical") > 0)
             {
-                Application.LoadLevel("dentroCasa");
+                Scene cenaNova = SceneManager.GetSceneByName("dentroCasa");
+                SceneManager.LoadScene("dentroCasa");
+                SceneManager.MoveGameObjectToScene(objetoAtivador, cenaNova);
+
             }
         }
-
-
-
 
     }
 }
